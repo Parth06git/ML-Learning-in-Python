@@ -29,7 +29,6 @@ plt.ylabel('Salary')
 plt.show()
 
 # Visualising the Test set results
-plt.new()
 plt.scatter(X_test, y_test, color='red')
 plt.plot(X_test, y_pred, color='blue')
 plt.title('Salary vs Experience (Test set)')
